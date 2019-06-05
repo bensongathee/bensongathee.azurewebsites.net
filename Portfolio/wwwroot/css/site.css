@@ -71,7 +71,27 @@ a:focus {
     color: #fff;
     background: #6d7fcc;
 }
-
+.navbar-brand {
+    white-space: normal;
+}
+@media(max-width: 767px) {
+    .navbar-brand {
+        font-size: 12px;
+        white-space: normal;
+    }
+}
+@media(max-width: 500px) {
+    .navbar-brand {
+        font-size: 8px;
+        white-space: normal;
+    }
+}
+@media(max-width: 380px) {
+    .navbar-brand {
+        font-size: 4    px;
+        white-space: normal;
+    }
+} 
 .content {
     margin-left: 20%;
     padding: 20px;
