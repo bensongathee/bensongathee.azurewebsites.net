@@ -1,2 +1,2 @@
-# bensongathee.github.io
-Personal Website
+# bensongathee.azurewebsites.net
+Personal website: https://bensongathee.azurewebsites.net
