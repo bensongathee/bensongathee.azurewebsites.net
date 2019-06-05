@@ -88,7 +88,7 @@ a:focus {
 }
 @media(max-width: 380px) {
     .navbar-brand {
-        font-size: 4    px;
+        font-size: 4px;
         white-space: normal;
     }
 } 
