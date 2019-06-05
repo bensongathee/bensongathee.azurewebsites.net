@@ -6,13 +6,18 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
 }
-
 p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.3em;
     color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+}
+b, strong {
+    font-weight: bold;
 }
 
 .wrapper {
@@ -39,35 +44,29 @@ a:focus {
     background-image: url('../images/space.jpg');
     transition: all 0.3s;
 }
-
 #sidebar .sidebar-header {
     min-width: 100%;
     max-width: 100%;
     padding: 32px;
     background-image: url('../images/space2.jpg');
 }
-
 #sidebar ul.components {
     padding: 20px 0;
     border-bottom: 1px solid #47748b;
 }
-
 #sidebar ul p {
     color: #fff;
     padding: 10px;
 }
-
 #sidebar ul li a {
     padding: 10px;
     font-size: 1.1em;
     display: block;
 }
-
 #sidebar ul li a:hover {
     color: #7386D5;
     background: #fff;
 }
-
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
     background: #6d7fcc;
@@ -77,6 +76,13 @@ a:focus {
     margin-left: 20%;
     padding: 20px;
     height: auto;
+}
+.lead {
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.sectionHeaders {
+    font-size: 250%;
 }
 .profilepic {
     border-radius: 50%;
