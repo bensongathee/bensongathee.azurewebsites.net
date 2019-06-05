@@ -110,6 +110,13 @@ a:focus {
     height: auto;
     max-width: 80%;
 }
+
+.headerIcon {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 footer {
     background-image: url('../images/space1.jpg');
     min-height: 80px;
