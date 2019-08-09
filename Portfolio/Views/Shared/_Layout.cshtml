@@ -3,47 +3,42 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Benson Gathee</title>
+    <title>Benson Gathee's Homepage University of Rochester</title>
     <meta name="description" content="Benson Gathee's Personal Website">
     <meta name="keywords" content="Benson, Wanjohi, Gathee, Benson Gathee, Benson Wanjohi">
     <meta name="author" content="Benson Gathee">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <!-- Custom Stylesheet -->
-    <link href="~/css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//www.cs.rochester.edu/~cxu22/w3.css">
+    <link rel="stylesheet" href="//www.cs.rochester.edu/~cxu22/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
-<body>
-    <div class="wrapper">
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <img class="profilepic" src="~/images/Gathee.jpg">
-                <h6>@Html.ActionLink("Gathee Benson", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })</h6>
+<body class="w3-content w3-light-grey" style="max-width:980px">
+    <div class="w3-card-8 w3-white w3-margin-left w3-margin-right">
+        <header class="w3-container w3-margin-top" style="padding-left:35px;padding-right:35px">
+            <div class="w3-left">
+                <h1>Benson Gathee</h1>
             </div>
-            <br />
-            <ul class="list-unstyled">
-                <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                <li><a asp-area="" asp-controller="Home" asp-action="Projects">Projects</a></li>
-                <li><a asp-area="" asp-controller="Home" asp-action="Articles">Articles</a></li>
-                <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-            </ul>
-        </nav>
+            <div class="w3-right">
+                <img src="~/images/UR-logo.jpg" class="w3-margin-top" alt="pic" style="height: 50px">
+            </div>
+        </header>
+        <ul class="w3-navbar w3-black">
+            <li><a asp-area="" asp-controller="Home" asp-action="Home"><i class="fa fa-home"></i> Home</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Education">Education</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Entrepreneurship">Entrepreneurship</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Social_Action_Project">Social Action Projects</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Career">Career</a></li>
+            <li><a asp-area="" asp-controller="Home" asp-action="Health">Health</a></li>
+            <li style="float:right"><a href="resume2019.pdf">Resume</a></li>
+        </ul>
         <div class="content">
             <div class="container-fluid">
                 @RenderBody()
             </div>
-            <hr />
-            <footer>
-                <p style="text-align: center;color: #ffffff">&copy; @DateTime.Now.Year - Gathee Benson</p>
+            <br />
+
+            <footer class="w3-container w3-margin-bottom w3-border-top">
+                <p><i>copyright  2018 Benson Gathee, powered by w3.css</i></p>
             </footer>
         </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    @RenderSection("Scripts", required: false)
 </body>
 </html>

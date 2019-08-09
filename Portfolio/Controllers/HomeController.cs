@@ -5,28 +5,28 @@ namespace PersonalPortfolio.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Home()
         {
             return View();
         }
-        public IActionResult Projects()
+        public IActionResult Education()
+        {
+            return View();
+        }
+        public IActionResult Social_Action_Project()
+        {
+            return View();
+        }
+        public IActionResult Entrepreneurship()
         {
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Career()
         {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
-
-        public IActionResult Contact()
-        {
-
-            return View();
-        }
-        public IActionResult Articles()
+        public IActionResult Health()
         {
             return View();
         }
