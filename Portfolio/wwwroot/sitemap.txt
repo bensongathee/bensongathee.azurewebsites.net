@@ -1,0 +1,4 @@
+https://bensongathee.azurewebsites.net/
+https://bensongathee.azurewebsites.net/Home
+https://bensongathee.azurewebsites.net/Home/Education
+https://bensongathee.azurewebsites.net/Home/Activities

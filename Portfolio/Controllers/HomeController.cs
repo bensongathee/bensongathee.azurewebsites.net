@@ -13,20 +13,7 @@ namespace PersonalPortfolio.Controllers
         {
             return View();
         }
-        public IActionResult Social_Action_Project()
-        {
-            return View();
-        }
-        public IActionResult Entrepreneurship()
-        {
-            return View();
-        }
-
-        public IActionResult Career()
-        {
-            return View();
-        }
-        public IActionResult Health()
+        public IActionResult Activities()
         {
             return View();
         }
